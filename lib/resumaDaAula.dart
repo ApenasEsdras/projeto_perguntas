@@ -5,9 +5,31 @@ widgets Visíveis VS invisíveis:
   Visíveis: Entradas & saídas  Invisíveis
   Aquilo que o usuário ver   X  Componentes q provem uma estatura para a aplicação
                 ----- CONTAINER -----
-  
-
 */
+
+/*
+Conceito de estado:
+  GERAL
+    . O Estado são dados/informações utilizadas pelo APP.
+  APP
+    . Usuário autenticado
+    . produto Carregado ...
+  WIDGET
+    . valor de campo de entrada
+    . o spinner de carregamento está sendo exibido?
+
+    ===
+
+Stateless VS Statefull
+
+STATELESS
+  Parãmetros (Dodos de Entrada) => Widget => Renderiza a UI
+    ↖ esses dados podem mudar(Externamente) // ↖ (Re)-renderiza qnd os parãmetros mudam.
+
+STATEFULL
+  Parãmentros (Dados de Entrada) => Widget + Estado Interno => Rederização da UI
+   ↖ esses dados podem mudar(Externamente) //                     ↖ (Re)-renderiza qnd os parâmetros ou estado Interno  mudam.
+ */
 
 import 'package:flutter/material.dart';
 
